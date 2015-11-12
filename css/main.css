@@ -1213,7 +1213,12 @@ textarea.form-control {
     }
 }
 
+@media (min-width: 700px) { 
+    .product_developement{
+          border-right: thick solid #009EE3;
+    }
 
+ }
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
@@ -1439,4 +1444,8 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+
+    .product_developement{
+      border-right: thick solid white;
+}
 }
