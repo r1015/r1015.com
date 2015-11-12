@@ -511,29 +511,29 @@ h1.navbar-brand {
 	About
 ==================================================================*/
 
-#about {
+#team {
     background-color: #009EE3;
     color: #fff;
 }
 
-#about h3 {
+#team h3 {
     color: #fff;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
 
-#about .welcome-block h3 {
+#team .welcome-block h3 {
     margin: 0 0 65px;
 }
 
-#about .welcome-block img {
+#team .welcome-block img {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
     max-width: 100px;
 }
 
-#about .message-body {
+#team .message-body {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 70px;
@@ -1141,7 +1141,7 @@ textarea.form-control {
 @media (min-width: 980px) and (max-width: 1150px) {
 
 /*about*/
-    #about .welcome-block img {
+    #team .welcome-block img {
         margin-bottom: 30px;
     }
 
@@ -1270,20 +1270,20 @@ textarea.form-control {
         margin-bottom: 85px;
     }
 
-    #about h3 {
+    #team h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
     }
 
-    #about .owl-buttons {
+    #team .owl-buttons {
         margin-top: 20px;
     }
 
-    #about .message-body {
+    #team .message-body {
         margin-bottom: 45px;
     }
 
-    #about .welcome-block img {
+    #team .welcome-block img {
         margin: 0 25px 15px 0;
     }
 
@@ -1385,7 +1385,7 @@ textarea.form-control {
 
 /*about*/
 
-    #about .welcome-block h3 {
+    #team .welcome-block h3 {
         margin: 0 0 35px;
     }
 
