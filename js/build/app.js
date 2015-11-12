@@ -286,8 +286,8 @@ function NeuralNetwork() {
 		verticesSkipStep: 2,
 		maxAxonDist: 10,
 		maxConnectionsPerNeuron: 6,
-		signalMinSpeed: 1.75,
-		signalMaxSpeed: 3.25,
+		signalMinSpeed: 0.5,
+		signalMaxSpeed: 4.75,
 		currentMaxSignals: 8000,
 		limitSignals: 10000
 
