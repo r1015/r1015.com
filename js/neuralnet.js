@@ -15,7 +15,7 @@ function NeuralNetwork() {
 		limitSignals           : 10000
 		*/
 
-		verticesSkipStep: 2,
+		verticesSkipStep: 10,
 		maxAxonDist: 10,
 		maxConnectionsPerNeuron: 6,
 		signalMinSpeed: 0.5,
@@ -38,7 +38,7 @@ function NeuralNetwork() {
 
 	// axon
 	this.axonOpacityMultiplier = 0.5;
-	this.axonColor = '#0099ff';
+	this.axonColor = '#e2f269';
 	this.axonGeom = new THREE.BufferGeometry();
 	this.axonPositions = [];
 	this.axonIndices = [];
@@ -63,7 +63,7 @@ function NeuralNetwork() {
 	};
 
 	// neuron
-	this.neuronSizeMultiplier = 1.0;
+	this.neuronSizeMultiplier = 0.5;
 	this.spriteTextureNeuron = TEXTURES.electric;
 	this.neuronColor = '#00ffff';
 	this.neuronOpacity = 0.75;

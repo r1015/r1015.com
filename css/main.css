@@ -359,9 +359,8 @@ h1.navbar-brand {
     display: table-cell;
 }
 
-.caption-content h2 {
-    color: #fff;
-    font-size: 52px;
+.caption-content h1 {
+    color: #fff;    
     font-weight: 400;
     margin-bottom: 25px;
     text-transform: uppercase;

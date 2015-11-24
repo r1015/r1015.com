@@ -29,11 +29,11 @@ container = document.getElementById( 'canvas-container' );
 scene = new THREE.Scene();
 
 // ---- Camera
-camera = new THREE.PerspectiveCamera( 20, screenRatio, 10, 5000 );
-camera.zoom = 4;
+camera = new THREE.PerspectiveCamera( 50, screenRatio, 10, 5000 );
+
 // camera orbit control
 cameraCtrl = new THREE.OrbitControls( camera, container );
-cameraCtrl.object.position.y = 150;
+cameraCtrl.object.position.z = 100;
 cameraCtrl.update();
 
 // ---- Renderer

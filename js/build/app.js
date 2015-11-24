@@ -283,7 +283,7 @@ function NeuralNetwork() {
 		limitSignals           : 10000
 		*/
 
-		verticesSkipStep: 2,
+		verticesSkipStep: 10,
 		maxAxonDist: 10,
 		maxConnectionsPerNeuron: 6,
 		signalMinSpeed: 0.5,
@@ -306,7 +306,7 @@ function NeuralNetwork() {
 
 	// axon
 	this.axonOpacityMultiplier = 0.5;
-	this.axonColor = '#0099ff';
+	this.axonColor = '#e2f269';
 	this.axonGeom = new THREE.BufferGeometry();
 	this.axonPositions = [];
 	this.axonIndices = [];
@@ -331,7 +331,7 @@ function NeuralNetwork() {
 	};
 
 	// neuron
-	this.neuronSizeMultiplier = 1.0;
+	this.neuronSizeMultiplier = 0.5;
 	this.spriteTextureNeuron = TEXTURES.electric;
 	this.neuronColor = '#00ffff';
 	this.neuronOpacity = 0.75;
@@ -721,11 +721,11 @@ container = document.getElementById( 'canvas-container' );
 scene = new THREE.Scene();
 
 // ---- Camera
-camera = new THREE.PerspectiveCamera( 20, screenRatio, 10, 5000 );
-camera.zoom = 4;
+camera = new THREE.PerspectiveCamera( 50, screenRatio, 10, 5000 );
+
 // camera orbit control
 cameraCtrl = new THREE.OrbitControls( camera, container );
-cameraCtrl.object.position.y = 150;
+cameraCtrl.object.position.z = 100;
 cameraCtrl.update();
 
 // ---- Renderer

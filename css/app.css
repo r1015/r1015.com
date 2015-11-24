@@ -16,12 +16,10 @@
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-
+.flex-container-space-between{
+    justify-content:space-between !important;
+}
 .flex-item {
-
-
-
-
 
   text-align: center;
 }
