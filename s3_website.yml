@@ -1,6 +1,7 @@
 s3_id: AKIAJIR2YDBG54HLT7OQ
 s3_secret: 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
-s3_bucket: www.r1015.com
+s3_bucket: r1015.com
+site: ./
 cloudfront_distribution_id: E1R0YAFPFEC79W
 cloudfront_distribution_config:
   default_cache_behavior:
@@ -8,11 +9,11 @@ cloudfront_distribution_config:
   aliases:
     quantity: 1
     items:
-      CNAME: www.r1015.com
+      CNAME: r1015.com
 max_age: 120
 gzip: true
-
-
+exclude_from_upload:
+  - node_modules
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 # s3_endpoint: ap-northeast-1
 
