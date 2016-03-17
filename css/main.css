@@ -65,7 +65,7 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0,158,227, 0.78);
+    background-color: #3299BB;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -78,7 +78,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #009EE3;
+    background-color: #3299BB;
 }
 
 /* Sweep To Right */
@@ -148,7 +148,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: #3299BB;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -179,7 +179,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #3299BB;
     content: "";
     display: block;
     left: 45%;
@@ -493,14 +493,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    background: url("../img/right.png") no-repeat scroll center center #3299BB;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    background: url("../img/left.png") no-repeat scroll center center #3299BB;
     height: 50px;
     width: 50px;
     left: 0;
@@ -511,7 +511,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #team {
-    background-color: #009EE3;
+    background-color: #3299BB;
     color: #fff;
 }
 
@@ -591,9 +591,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid #3299BB;
     margin-bottom: 20px;
-    color: #009ee3;
+    color: #3299BB;
 }
 
 .service-icon i {
@@ -690,7 +690,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #009EE3;
+    background-color: #3299BB;
     color: #fff;
 }
 
@@ -726,7 +726,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
+    background-image: url(http://www.sanfranciscodeluxetours.com/images/sfdeluxe-gal-img-51.jpg);
     padding: 0;
     color: #fff;
 }
@@ -736,7 +736,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: rgba(50, 153, 187,0.78);
     padding: 70px 0 40px;
 }
 
@@ -833,7 +833,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #009EE3;
+    background-color: #3299BB;
     color: #fff;
 }
 
@@ -882,7 +882,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: #3299BB;
 }
 
 .price-table.featured ul li:last-child a,
@@ -1119,7 +1119,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-    color: #009EE3;
+    color: #3299BB;
 }
 
 .footer-content > p {
@@ -1214,7 +1214,7 @@ textarea.form-control {
 
 @media (min-width: 700px) { 
     .product_developement{
-          border-right: thick solid #009EE3;
+          border-right: thick solid #3299BB;
     }
 
  }
@@ -1223,6 +1223,9 @@ textarea.form-control {
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
+    .testimonial_landing{
+        display:none;
+    }
 
     body {
         font-size: 14px;

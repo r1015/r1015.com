@@ -18,14 +18,6 @@ $(function() {
 
         var $navArrows = $( '#nav-arrows' ),
             $nav = $( '#nav-dots > span' ),
-            slitslider = $( '#slider' ).slitslider( {
-                onBeforeChange : function( slide, pos ) {
-
-                    $nav.removeClass( 'nav-dot-current' );
-                    $nav.eq( pos ).addClass( 'nav-dot-current' );
-
-                }
-            } ),
 
             init = function() {
 
@@ -37,14 +29,14 @@ $(function() {
                 // add navigation events
                 $navArrows.children( ':last' ).on( 'click', function() {
 
-                    slitslider.next();
+                    // slitslider.next();
                     return false;
 
                 } );
 
                 $navArrows.children( ':first' ).on( 'click', function() {
                     
-                    slitslider.previous();
+                    // slitslider.previous();
                     return false;
 
                 } );
@@ -55,14 +47,14 @@ $(function() {
                         
                         var $dot = $( this );
                         
-                        if( !slitslider.isActive() ) {
+                        // if( !slitslider.isActive() ) {
 
                             $nav.removeClass( 'nav-dot-current' );
                             $dot.addClass( 'nav-dot-current' );
                         
-                        }
+                        // }
                         
-                        slitslider.jump( i + 1 );
+                        // slitslider.jump( i + 1 );
                         return false;
                     
                     } );
@@ -127,7 +119,7 @@ $(document).ready(function(){
 	
 	
 	
-	$("#works, #testimonial").owlCarousel({	 
+	$("#testimonial").owlCarousel({	 
 		navigation : true,
 		pagination : false,
 		slideSpeed : 700,
